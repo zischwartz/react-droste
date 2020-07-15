@@ -4,7 +4,7 @@
 
 Ever want to put a live preview in a web page, of that page, or a piece of it?
 
-This will let you do that, sorta.
+This will let you do that, sorta. [Here's a quick live demo](https://zischwartz.github.io/react-droste/)
 
 Sometimes called the [droste effect](https://en.wikipedia.org/wiki/Droste_effect) or [mise en abyme](https://en.wikipedia.org/wiki/Mise_en_abyme).
 
@@ -34,6 +34,8 @@ class Droste extends Component {
   }
 }
 ```
+
+See the `example/` directory for more.
 
 ### Props
 

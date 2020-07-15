@@ -13,7 +13,7 @@ const App = () => {
   return (
     <div id='wrap'>
       <div className='col'>
-        <h1>Hello world</h1>
+        <h1>react-droste</h1>
         <p>{lorem}</p>
         <img src='droste.png' alt='droste package' />
         <Kitten {...get_wh()} />
