@@ -28,7 +28,6 @@ img.kitten {
 }
 
 img.kitten.active {
-  /* transform: scale(1.5); */
   width: 100px;
   border: 5px solid orange;
 }

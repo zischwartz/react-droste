@@ -1,6 +1,5 @@
 import React, { useRef, useEffect } from 'react'
 
-// import styles from './styles.module.css'
 import html2canvas from 'html2canvas'
 import rafSchd from 'raf-schd'
 

@@ -45,7 +45,7 @@ class Droste extends Component {
 
 ## Notes
 
-`html2canvas` doesn't support all of CSS, so your page may not look perfect. [Here's a page of what is and isn't supported.](http://html2canvas.hertzen.com/features)
+`html2canvas` doesn't support all of HTML/CSS, so your page may not look perfect. Additionally, things like the CSS `:hover` pseudo-class won't work. [Here's a page of what is and isn't supported.](http://html2canvas.hertzen.com/features)
 
 To get images to work, you either need to serve them from the same origin, or have cors set on them on the images request headers (on the server) and set `useCORS` to `true` in the `config` object that's passed to `html2canvas`.
 
