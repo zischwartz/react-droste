@@ -8,7 +8,44 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+* {
+  box-sizing: border-box;
+}
+#wrap {
+  padding: 10px;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+img.kitten {
+  transition: all 1s ease;
+  margin-bottom: 10px;
+  border: 5px solid green;
+  cursor: pointer;
+}
+
+img.kitten.active {
+  /* transform: scale(1.5); */
+  width: 100px;
+  border: 5px solid orange;
+}
+
+img.kitten:hover {
+  border-color: blue;
+}
+
+div#droste_example_wrap {
+  border: 1px solid black;
+  display: inline-block;
+  background-color: white;
+  cursor: pointer;
+}
+
+div#droste_example_wrap.is_fixed {
+  position: fixed;
+  left: 0px;
+  top: 25px;
 }
